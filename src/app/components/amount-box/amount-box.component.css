@@ -1,0 +1,40 @@
+.amount-box-container {
+    color: #ED0000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #F1F1F1;
+    height: 220px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+
+.amount-title {
+    display: flex;
+    justify-content: space-around ;
+    margin-right: 180px;
+    align-items: center;
+    height: 40px;
+}
+
+.amount-title>p {
+    font-size: 20px;
+}
+
+
+.amount-card-middle {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#divider {
+    margin: 5px;
+    border: 1px solid red;
+    width: 300px;
+}
