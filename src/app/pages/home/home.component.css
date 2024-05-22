@@ -16,6 +16,11 @@
     text-decoration: underline;
 }
 
+.cards-boxes {
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .content-container {
     margin-top: 100px;
     padding: 5px 40px;
@@ -25,11 +30,14 @@
     align-items: center;
 }
 
-.cards-boxes {
-    display: flex;
-    margin-bottom: 30px;
-}
-
 .content-card {
     margin-left: 20px;
+}
+
+@media screen and (min-width: 360px) { 
+    .cards-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
